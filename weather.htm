@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+	<meta http-equiv='Content-type' content='text/html;charset=UTF-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<!-- <link href=https://fonts.googleapis.com/css?family=&display=swap rel=stylesheet /> -->
+	<link rel="stylesheet" href="weather.css">
+	<title> weather </title>
+</head>
+
+<body>
+	<div class="weather">
+		<div class="container">
+			<div class="weather__now">
+				<div class="weather__search">
+					<form class="form1">
+						<input type="text" class="input__search" placeholder="Введите город">
+						<button class="button__search">&#128269</button>
+					</form>
+					<!-- <input type="text" class="input__search" placeholder="Введите город">
+					<button class="button__search">&#128269</button> -->
+				</div>
+				<div class="main">
+					<div class="weather__now_left left main__wrapper">
+						<div class="content__weather _active" id="first">
+							<div class="left__up">
+								<div class="temp">
+									<!-- Здесь будет название города -->
+								</div>
+							</div>
+							<div class="left__up_down">
+								<div class="left__city"></div>
+								<button class="like">&#10084</button>
+							</div>
+						</div>
+						<div class="content__weather left__up_2" id="second">
+							<div class="city__name left__up_2_child"></div>
+							<div class="temp2 left__up_2_child"></div>
+							<div class="feels__like left__up_2_child"></div>
+							<div class="weather__how left__up_2_child"></div>
+							<div class="sunrise left__up_2_child"></div>
+							<div class="sunset left__up_2_child"></div>
+						</div>
+						<div class="content__weather left__up_2" id="third">TEST2</div>
+
+						<div class="left__down buttons">
+							<button class="button now btn__active" data-tab="#first">Now</button>
+							<button class="button details" data-tab="#second">Details</button>
+							<button class="button forecast" data-tab="#third">Forecast</button>
+						</div>
+					</div>
+					<div class="weather__now_right right main__wrapper">
+						<div class="added__locations">Added Locations:</div>
+						<div class="city__row"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='test3.js'></script>
+</body>
+
+</html>
